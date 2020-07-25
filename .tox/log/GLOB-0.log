@@ -1,0 +1,46 @@
+action: GLOB, msg: packaging
+cwd: D:\python\template_project
+cmd: 'c:\python38-32\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing template_project.egg-info\PKG-INFO
+writing dependency_links to template_project.egg-info\dependency_links.txt
+writing requirements to template_project.egg-info\requires.txt
+writing top-level names to template_project.egg-info\top_level.txt
+reading manifest file 'template_project.egg-info\SOURCES.txt'
+writing manifest file 'template_project.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating template_project-0.1
+creating template_project-0.1\template_project.egg-info
+creating template_project-0.1\tests
+copying files to template_project-0.1...
+copying setup.py -> template_project-0.1
+copying template_project.egg-info\PKG-INFO -> template_project-0.1\template_project.egg-info
+copying template_project.egg-info\SOURCES.txt -> template_project-0.1\template_project.egg-info
+copying template_project.egg-info\dependency_links.txt -> template_project-0.1\template_project.egg-info
+copying template_project.egg-info\requires.txt -> template_project-0.1\template_project.egg-info
+copying template_project.egg-info\top_level.txt -> template_project-0.1\template_project.egg-info
+copying tests\__init__.py -> template_project-0.1\tests
+copying tests\test_one.py -> template_project-0.1\tests
+Writing template_project-0.1\setup.cfg
+creating '.tox\dist\template_project-0.1.zip' and adding 'template_project-0.1' to it
+adding 'template_project-0.1'
+adding 'template_project-0.1\template_project.egg-info'
+adding 'template_project-0.1\tests'
+adding 'template_project-0.1\PKG-INFO'
+adding 'template_project-0.1\setup.cfg'
+adding 'template_project-0.1\setup.py'
+adding 'template_project-0.1\template_project.egg-info\dependency_links.txt'
+adding 'template_project-0.1\template_project.egg-info\PKG-INFO'
+adding 'template_project-0.1\template_project.egg-info\requires.txt'
+adding 'template_project-0.1\template_project.egg-info\SOURCES.txt'
+adding 'template_project-0.1\template_project.egg-info\top_level.txt'
+adding 'template_project-0.1\tests\test_one.py'
+adding 'template_project-0.1\tests\__init__.py'
+removing 'template_project-0.1' (and everything under it)

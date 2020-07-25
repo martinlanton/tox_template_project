@@ -1,0 +1,8 @@
+action: py27, msg: getenv
+cwd: D:\python\template_project\.tox
+cmd: 'c:\python38-32\python.exe' -m virtualenv --no-download --python 'C:\Python27\python.exe' py27
+Already using interpreter C:\Python27\python.exe
+New python executable in D:\python\template_project\.tox\py27\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter C:\Python27\python.exe

@@ -1,0 +1,39 @@
+action: py38, msg: installpkg
+cwd: D:\python\template_project
+cmd: 'D:\python\template_project\.tox\py38\Scripts\python.EXE' -m pip install --exists-action w '.tox\.tmp\package\1\template_project-0.1.zip'
+Processing d:\python\template_project\.tox\.tmp\package\1\template_project-0.1.zip
+Collecting pytest
+  Using cached https://files.pythonhosted.org/packages/9f/f3/0a83558da436a081344aa6c8b85ea5b5f05071214106036ce341b7769b0b/pytest-5.4.3-py3-none-any.whl
+Collecting colorama; sys_platform == "win32"
+  Using cached https://files.pythonhosted.org/packages/c9/dc/45cdef1b4d119eb96316b3117e6d5708a08029992b2fee2c143c7a0a5cc5/colorama-0.4.3-py2.py3-none-any.whl
+Collecting wcwidth
+  Using cached https://files.pythonhosted.org/packages/59/7c/e39aca596badaf1b78e8f547c807b04dae603a433d3e7a7e04d67f2ef3e5/wcwidth-0.2.5-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.12
+  Using cached https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+Collecting attrs>=17.4.0
+  Using cached https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0
+  Using cached https://files.pythonhosted.org/packages/ef/9b/6c35ec5483710492e21252465160ee508170159f7e0e2d6cd769022f52f6/more_itertools-8.4.0-py3-none-any.whl
+Collecting atomicwrites>=1.0; sys_platform == "win32"
+  Using cached https://files.pythonhosted.org/packages/2c/a0/da5f49008ec6e9a658dbf5d7310a4debd397bce0b4db03cf8a410066bb87/atomicwrites-1.4.0-py2.py3-none-any.whl
+Collecting py>=1.5.0
+  Using cached https://files.pythonhosted.org/packages/68/0f/41a43535b52a81e4f29e420a151032d26f08b62206840c48d14b70e53376/py-1.9.0-py2.py3-none-any.whl
+Collecting packaging
+  Using cached https://files.pythonhosted.org/packages/46/19/c5ab91b1b05cfe63cccd5cfc971db9214c6dd6ced54e33c30d5af1d2bc43/packaging-20.4-py2.py3-none-any.whl
+Collecting pyparsing>=2.0.2
+  Using cached https://files.pythonhosted.org/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl
+Collecting six
+  Using cached https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl
+Building wheels for collected packages: template-project
+  Building wheel for template-project (setup.py): started
+  Building wheel for template-project (setup.py): finished with status 'done'
+  Created wheel for template-project: filename=template_project-0.1-cp38-none-any.whl size=1361 sha256=4d5d2c1ceea0d98377645abc953553ee773a4fe4bcd7724bb1b740490b8fb765
+  Stored in directory: C:\Users\lanto\AppData\Local\pip\Cache\wheels\70\e0\f6\2ad3a51cd30ac7fb2323b47e2162062fa17d307dcc0e654c38
+Successfully built template-project
+Installing collected packages: colorama, wcwidth, pluggy, attrs, more-itertools, atomicwrites, py, pyparsing, six, packaging, pytest, template-project
+  Found existing installation: template-project 0.1
+    Not uninstalling template-project at d:\python\template_project, outside environment D:\python\template_project\.tox\py38
+    Can't uninstall 'template-project'. No files were found to uninstall.
+Successfully installed atomicwrites-1.4.0 attrs-19.3.0 colorama-0.4.3 more-itertools-8.4.0 packaging-20.4 pluggy-0.13.1 py-1.9.0 pyparsing-2.4.7 pytest-5.4.3 six-1.15.0 template-project-0.1 wcwidth-0.2.5
+WARNING: You are using pip version 19.3.1; however, version 20.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
