@@ -1,8 +1,0 @@
-action: py38, msg: getenv
-cwd: D:\python\template_project\.tox
-cmd: 'c:\python38-32\python.exe' -m virtualenv --no-download --python 'c:\python38-32\python.exe' py38
-Already using interpreter c:\python38-32\python.exe
-Using base prefix 'c:\\python38-32'
-New python executable in D:\python\template_project\.tox\py38\Scripts\python.exe
-Installing setuptools, pip, wheel...
-done.
