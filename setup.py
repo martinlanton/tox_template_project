@@ -16,5 +16,6 @@ setup(
     install_requires=[
         'pytest<=4.6;python_version<"3"',
         'pytest;python_version>"3"',
+        'pyparsing<3',
     ]
 )
