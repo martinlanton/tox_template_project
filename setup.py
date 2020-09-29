@@ -14,6 +14,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     install_requires=[
-        'pytest',
+        'pytest<=4.6;python_version<"3"',
+        'pytest;python_version>"3"',
     ]
 )
