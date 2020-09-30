@@ -21,5 +21,6 @@ jobs:
       env:
         PYTHONPATH: src
       run: |
+        pip install --upgrade -vv setuptools
         python setup.py develop
         python -m pytest
