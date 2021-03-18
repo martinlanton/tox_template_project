@@ -14,6 +14,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     install_requires=[
-        'pytest-cov',
+        "pytest-cov",
+        "pytest<=6.1.2;python_version<'3.6'",
     ]
 )
