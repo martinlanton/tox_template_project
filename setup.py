@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 name = 'template_project'
 author = "Martin L'Anton"
 author_email = "lantonmartin@gmail.com"
-url = "https://github.com/martinlanton/ComponentAssembler"
+url = "https://github.com/martinlanton/tox_template_project"
 
 setup(
     name=name,
