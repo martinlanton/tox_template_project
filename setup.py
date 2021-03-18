@@ -15,6 +15,5 @@ setup(
     packages=find_packages(where='src'),
     install_requires=[
         "pytest-cov",
-        "pytest<=5.4.3;python_version<'3.6'",
     ]
 )
