@@ -5,3 +5,4 @@
 *.coverage
 cov_html/
 venv
+build
